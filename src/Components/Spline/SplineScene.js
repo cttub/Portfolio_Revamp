@@ -5,7 +5,7 @@ const SplineScene = () => {
   useEffect(() => {
     const canvas = document.getElementById('canvas3d');
     const app = new Application(canvas);
-    app.load('https://prod.spline.design/KVbRQaSYhum5huCz/scene.splinecode');
+    app.load('https://prod.spline.design/eUSHzpuUCcOZ2lLF/scene.splinecode');
   }, []);
 
   return (
