@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Application } from '@splinetool/runtime';
 
+
 const Bunny = () => {
   useEffect(() => {
     const canvas = document.getElementById('canvas3d');

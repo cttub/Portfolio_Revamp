@@ -1,0 +1,67 @@
+
+#Landing{
+    height: 100vh;
+    padding: 100px;
+}
+.landing-info{
+    padding-right: 40px;
+    padding-top: 10%;
+}
+.landing-container {
+    padding: 50px;
+    margin: 100px;
+}
+.info-paragraph{
+    border-top: solid #99A4DD 2px;
+}
+.landing-image{
+  background-color: #FFD7BA;
+  overflow: clip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 85%;
+  width: 85%;
+}
+.image-container{
+    display: flex;
+  
+}
+@media only screen and (max-width: 1689px){
+    .landing-image{
+        background: transparent;
+        
+    }
+}
+@media only screen and (max-width: 1279px){
+    .landing-container, landing-info{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .image-container{
+        opacity: 50%;
+        position: absolute;
+        z-index: 0;
+    }
+    .landing-info{
+        background-color: rgba(255, 255, 255, 0.637);
+        padding: 40px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Landing{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+}
+@media only screen and (max-width: 991px){
+    
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html{
+    font-family: 'Quicksand';
+    overflow-x: hidden;
+
+}
+* {
+    box-sizing: border-box;
+  }
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #FFF8E7;
+}
+/*Text Sizes*/
+h1, h2, h3, h4, h5, h6, p{  
+    font-family: 'Quicksand';
+}
+.heading{
+    font-size: 50px;
+}
+.subtitle{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+/*Button*/
+button{
+    background-color: white;
+    font-size: 20px !important;
+    border: solid 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px !important;
+}
+/*Button Colors*/
+.green-btn{
+    color: #76C883;
+    border: solid #76C883;
+}
+.red-btn{
+    color: #FF9F9F;
+    border: solid #FF9F9F;
+}
+.purple-btn{
+    color: #99A4DD;
+    border: solid #99A4DD;
+}
+/*Text Colors*/
+.black-text{
+    color: #484848;
+}
+.red-text{
+    color: #FF9F9F;
+}
+.green-text{
+    color: #76C883;
+}
+.purple-text{
+    color: #99A4DD;
+}
+/*Background Colors*/
+.pink-bg{
+    background: #FFC2C2;
+}
+.cream-bg{
+    background: #FFF8E7;
+}
+.orange-bg{
+    background: #FFD7BA;
+}
+.green-bg{
+    background: #76C883;
+}
+.purple-bg{
+    background: #99A4DD;
+}
+.red-bg{
+    background: #FF9F9F;
+}
