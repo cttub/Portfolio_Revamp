@@ -5,29 +5,39 @@ html{
     overflow-x: hidden;
 
 }
+.fp-watermark{
+    display: none;
+}
 * {
     box-sizing: border-box;
   }
+
 body{
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #FFF8E7;
 }
+/*Navigation Fullpage*/
+#fp-nav > ul > li > a > span{
+    background: #99A4DD !important;
+}
 /*Text Sizes*/
 h1, h2, h3, h4, h5, h6, p{  
     font-family: 'Quicksand';
 }
-.heading{
+.heading, h1{
     font-size: 50px;
 }
-.subtitle{
+.subtitle, h2{
     font-size: 40px;
 }
 p{
     font-size: 25px;
 }
 /*Button*/
+
 button{
+    transition: ease-in-out .35s;
     background-color: white;
     font-size: 20px !important;
     border: solid 3px;
@@ -42,13 +52,26 @@ button{
     color: #76C883;
     border: solid #76C883;
 }
+.green-btn:hover{
+    transform: scale(1.05);
+    box-shadow: -10px 10px #76C883;
+}
+
 .red-btn{
     color: #FF9F9F;
     border: solid #FF9F9F;
 }
+.red-btn:hover{
+    transform: scale(1.05);
+    box-shadow: -10px 10px #FF9F9F;
+}
 .purple-btn{
     color: #99A4DD;
     border: solid #99A4DD;
+}
+.purple-btn:hover{
+    transform: scale(1.05);
+    box-shadow: -10px 10px #99A4DD;
 }
 /*Text Colors*/
 .black-text{
@@ -82,3 +105,31 @@ button{
 .red-bg{
     background: #FF9F9F;
 }
+/*Borders*/
+.green-border{
+    border: solid 2px #76C883;
+}
+.purple-border{
+    border: solid 2px #99A4DD;
+}
+.red-border{
+    border: solid 2px #FF9F9F;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+  }

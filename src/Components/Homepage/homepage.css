@@ -1,15 +1,17 @@
-
+/*Landing*/
 #Landing{
     height: 100vh;
-    padding: 100px;
+    
 }
 .landing-info{
+    
     padding-right: 40px;
     padding-top: 10%;
 }
 .landing-container {
-    padding: 50px;
-    margin: 100px;
+    padding: 200px;
+    padding-bottom: 0px;
+   
 }
 .info-paragraph{
     border-top: solid #99A4DD 2px;
@@ -25,6 +27,7 @@
   width: 85%;
 }
 .image-container{
+    
     display: flex;
   
 }
@@ -36,7 +39,7 @@
 }
 @media only screen and (max-width: 1279px){
     .landing-container, landing-info{
-        padding-left: 0px;
+        padding-left: 40px;
         padding-right: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -44,6 +47,10 @@
     
 }
 @media only screen and (max-width: 767px){
+    .landing-container{
+        padding-left: 0px;
+
+    }
     .image-container{
         opacity: 50%;
         position: absolute;
@@ -54,14 +61,80 @@
         padding: 40px;
         position: absolute;
         z-index: 1;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: -135px;
+        border-radius: 10px;
+        border: solid #99A4DD 5px;
     }
     #Landing{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
 
     }
 
 }
-@media only screen and (max-width: 991px){
-    
+/*MyWork*/
+.top-space{
+    height: 150px;
+}
+.bunnyCardSVG{
+    height: 90%;
+    padding: 50px;
+    padding-left: 50px;
+}
+.bunnyCardSVG:hover{
+    animation: bounce 1s;
+}
+
+.container-card{
+    overflow: visible;
+    height: 600px;
+    display: block;
+    justify-content: center;
+}
+.card-containers{ 
+    justify-content: center;
+}
+.bunnyCard{
+    width: 20%;
+    margin-right:30px;
+    margin-left:30px;
+}
+.greenBunny{
+    background: url('../../Assets/greenBunny.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.purpleBunny{
+    background: url('../../Assets/purpleBunny.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.redBunny{
+    background: url('../../Assets/redBunny.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.button-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+h5{
+    margin-bottom: 20px;
+}
+.jobComp{
+    display: none;
+}
+.button-container > button{
+    border-radius: 100px !important;
+}
+.button-container > button:hover{
+    border-radius: 100px 100px 100px 0px !important;
+    box-shadow: 0px 2px;
 }

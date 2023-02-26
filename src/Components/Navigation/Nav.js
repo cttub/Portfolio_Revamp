@@ -8,7 +8,7 @@ class Nav extends Component {
     state = {  } 
     render() { 
         return (
-            <div style = {{marginTop: "10px", position: "sticky"}} id = "NavigationBar">
+            <div style = {{width: "100%", marginTop: "20px", position: "fixed"}} id = "NavigationBar">
 
                 <Link id = "logo" style = {{float: "left"}}
                         onClick={() => {
@@ -23,19 +23,19 @@ class Nav extends Component {
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/AboutMe"><p>About</p>
+                                to = "/About"><p>About</p>
                         </Link>
                         <Link style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/AboutMe"><p>My Work</p>
+                                to = "/"><p>My Work</p>
                         </Link>
                         <Link style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/AboutMe"><p>Contact Me</p>
+                                to = "/"><p>Contact Me</p>
                         </Link>
 
                 </div>

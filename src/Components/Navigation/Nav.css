@@ -1,3 +1,6 @@
+#NavigationBar{
+    z-index: 4;
+}
 a:not(#logo){
     color: white;
      position: relative;
@@ -25,11 +28,12 @@ a:not(#logo):hover::before {
     transform: scaleX(1);
 }
 #logo{
+    overflow: visible;
     margin-left: 10px;
     transition: ease-in-out .3s;
 }
 #logo:hover{
-    transform: scale(1.2);
+    animation: bounce 1s;
 
 }
 .navigationTab{
@@ -38,3 +42,4 @@ a:not(#logo):hover::before {
     padding-top: 10px;
     padding-left: 20px;
 }
+
