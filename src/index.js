@@ -11,7 +11,9 @@ import reportWebVitals from './reportWebVitals';
 
 import Layout from './Components/Layout';
 import Homepage from './Components/Homepage/Homepage';
-import AboutMe from './Components/AboutMe';
+import AboutMe from './Components/About';
+import MyWork from './Components/MyWork';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
           <Route path="About" element={<AboutMe />} />
+          <Route path="MyWork" element={<MyWork />} />
+          <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>

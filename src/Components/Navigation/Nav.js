@@ -29,13 +29,13 @@ class Nav extends Component {
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/"><p>My Work</p>
+                                to = "/MyWork"><p>My Work</p>
                         </Link>
                         <Link style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
-                                to = "/"><p>Contact Me</p>
+                                to = "/Contact"><p>Contact Me</p>
                         </Link>
 
                 </div>
