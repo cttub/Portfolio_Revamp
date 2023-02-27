@@ -20,7 +20,7 @@ class MyWork extends Component {
                                         <div className='button-container'>
                                             <button className='green-btn'>See Case Study</button>
                                         </div>
-                                </Fade>   
+                            </Fade>   
                         </div> 
                     </div>
                     <div className='bunnyCard'>

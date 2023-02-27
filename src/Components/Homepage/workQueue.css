@@ -1,3 +1,63 @@
+@media only screen and (max-width: 1689px){
+    .landing-image{
+        background: transparent;
+        
+    }
+}
+@media only screen and (max-width: 1279px){
+    .landing-container, landing-info{
+        padding-left: 40px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+@media only screen and (max-width: 991px){
+    .landing-info{
+        padding-top: 0%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .landing-container{
+        padding-left: 0px;
+
+    }
+    .image-container{
+        opacity: 50%;
+        position: absolute;
+        z-index: 0;
+    }
+    .landing-image{
+    margin-top: -60px;
+    }
+    .landing-info{
+        background-color: rgba(255, 255, 255, 0.637);
+        padding: 40px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -30px;
+        border-radius: 10px;
+        border: solid #99A4DD 5px;
+    }
+    #Landing{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+}
+@media only screen and (max-width: 486px){
+    .landing-info{
+        margin-top: 0px;
+
+    }
+    .landing-container{
+      margin-top: 20%;
+      padding: 0px;
+    }
+    
+}
+/*work*/
 @media only screen and (max-width: 991px){
     .card-containers{
         width: 100%;

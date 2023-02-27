@@ -10,7 +10,7 @@ class Landing extends Component {
             <div id = "Landing">
                 <div className='landing-container d-sm-block d-md-flex d-sm-block d-lg-flex'>
 
-                    <div className='landing-info col-lg-8 col-md-6 col-sm-11'>
+                    <div className='landing-info col-lg-8 col-md-6 col-sm-12'>
                             <h1 className='info-heading purple-text'>Christina Portfolio</h1>
                             <p className='info-paragraph'>Highly motivated and dedicated developer seeking to further develop 
                                 foundational skills and make a positive impact in the industry.</p>
@@ -18,7 +18,7 @@ class Landing extends Component {
                     </div>
                     <div className='image-container col-lg-4 col-md-6'>
                         <div className='landing-image'>
-                            <Bunny/>
+                            <Bunny />
                         </div>
                     </div>
 

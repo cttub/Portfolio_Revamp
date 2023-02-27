@@ -4,6 +4,7 @@ import LazyLoad from 'react-lazyload';
 
 import Landing from './Landing';
 import MyWork from './MyWork';
+import LetsChat from './LetsChat';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -36,6 +37,9 @@ class Homepage extends Component {
                                     </div>
                                     <div className="section">
                                         <MyWork />
+                                    </div>
+                                    <div className="section">
+                                        <LetsChat />
                                     </div>
                 
                 
