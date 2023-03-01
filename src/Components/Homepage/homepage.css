@@ -91,6 +91,9 @@ h5{
     border-radius: 100px 100px 100px 0px !important;
     box-shadow: 0px 2px;
 }
+.button-container button:active{
+    box-shadow: 0px 0px;
+}
 
 /*LetsChat*/
 .chat-container{

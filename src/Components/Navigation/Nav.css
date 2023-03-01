@@ -27,6 +27,7 @@ a:not(#logo)::before {
 a:not(#logo):hover::before {
     transform: scaleX(1);
 }
+
 #logo{
     overflow: visible;
     margin-left: 10px;
@@ -34,7 +35,6 @@ a:not(#logo):hover::before {
 }
 #logo:hover{
     animation: bounce 1s;
-
 }
 .navigationTab{
     margin-right: 10px;

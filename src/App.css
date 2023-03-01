@@ -56,6 +56,10 @@ button{
     transform: scale(1.05);
     box-shadow: -8px 8px #76C883;
 }
+.green-btn:active{
+    transform: scale(1);
+    box-shadow: 0px 0px #76C883;
+}
 
 .red-btn{
     color: #FF9F9F;
@@ -65,6 +69,10 @@ button{
     transform: scale(1.05);
     box-shadow: -8px 8px #FF9F9F;
 }
+.red-btn:active{
+    transform: scale(1);
+    box-shadow: 0px 0px #FF9F9F;
+}
 .purple-btn{
     color: #99A4DD;
     border: solid #99A4DD;
@@ -72,6 +80,10 @@ button{
 .purple-btn:hover{
     transform: scale(1.05);
     box-shadow: -8px 8px #99A4DD;
+}
+.purple-btn:active{
+    transform: scale(1);
+    box-shadow: 0px 0px #99A4DD;
 }
 /*Text Colors*/
 .black-text{
