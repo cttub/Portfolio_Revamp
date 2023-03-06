@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 import Layout from './Components/Layout';
 import Homepage from './Components/Homepage/Homepage';
 import AboutMe from './Components/About';
-import MyWork from './Components/MyWork';
+import MyWorkStudies from './Components/MyWorkStudies';
 import Contact from './Components/Contact';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
           <Route path="About" element={<AboutMe />} />
-          <Route path="MyWork" element={<MyWork />} />
+          <Route path="MyWork" element={<MyWorkStudies />} />
           <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
