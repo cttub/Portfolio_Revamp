@@ -127,6 +127,9 @@ button{
 .red-border{
     border: solid 2px #FF9F9F;
 }
+.orange-border{
+    border: solid 2px #FFD7BA;
+}
 
 
 @keyframes bounce {

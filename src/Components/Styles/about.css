@@ -1,0 +1,36 @@
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+.about-desc{
+    padding: 20px;
+}
+
+.about-title{
+    padding-bottom: 6px;
+    border-bottom:  solid #99A4DD;
+}
+.logos{
+    float: right;
+}
+.logos > img{
+    padding: 10px;
+}
+.picture{
+    border-radius: 135px 135px 1px 0px;
+    background: url('../../Assets/pfp.jpg');
+    background-position: center;
+    background-size: cover;
+    border: solid 10px #FFD7BA;
+
+}
+
+@media only screen and (max-width: 993px){
+    #aboutMe{
+        display: block;
+    }
+    .picture{
+        display: none;
+    }
+}

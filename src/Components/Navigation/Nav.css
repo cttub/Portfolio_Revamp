@@ -36,11 +36,9 @@ a:not(#logo):hover::before {
     transition: ease-in-out .3s;
 }
 #logo:hover{
-    box-shadow: -3px -3px  #FF9F9F;
     transform: scale(1.2);
 }
 #logo:active{
-    box-shadow: -1px -1px #FF9F9F;
     transform: scale(1.1);
 }
 .navigationTab{

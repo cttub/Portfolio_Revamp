@@ -6,7 +6,10 @@ class MyWorkStudies extends Component {
     render() { 
         return (
             <div>
-                <div class = "chatting"><MyWork /></div>
+                
+                <div class = "chatting">
+                <MyWork />
+                </div>
 
             </div>
         );
