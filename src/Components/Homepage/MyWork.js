@@ -11,7 +11,6 @@ class MyWork extends Component {
     render() { 
         return (
             <div>
-                <Fade><p className='heading purple-text' style={{textAlign: "center"}}>See my Experience</p></Fade>
                 <div className='card-containers d-lg-flex d-md-block'>
                    <div className='bunnyCard'>
                         <div className='container-card'>
