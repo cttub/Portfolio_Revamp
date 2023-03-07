@@ -1,17 +1,17 @@
 #NavigationBar{
     z-index: 4;
 }
-a:not(#logo){
+.navTag{
     color: white;
      position: relative;
     text-decoration: none;
     margin-right: 40px;
 }
-a:not(#logo):hover{
+.navTag:hover{
     color: white;
    
 } 
-a:not(#logo)::before {
+.navTag::before {
     content: ""; 
     position: absolute; 
     left: 0; 
@@ -24,7 +24,7 @@ a:not(#logo)::before {
     transform: scaleX(0); 
 }
   
-a:not(#logo):hover::before {
+.navTag:hover::before {
     transform: scaleX(1);
 }
 

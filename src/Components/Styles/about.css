@@ -14,7 +14,7 @@
 .logos{
     float: right;
 }
-.logos > img{
+.logos > a > img{
     padding: 10px;
 }
 .picture{
@@ -25,7 +25,17 @@
     border: solid 10px #FFD7BA;
 
 }
-
+.logos > a > img{
+    border-radius: 50%;
+    overflow: visible;
+    transition: ease-in-out .3s;
+}
+.logos > a > img:hover{
+    transform: scale(1.2);
+}
+.logos > a > img:active{
+    transform: scale(1.1);
+}
 @media only screen and (max-width: 993px){
     #aboutMe{
         display: block;

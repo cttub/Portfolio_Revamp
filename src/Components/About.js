@@ -12,8 +12,8 @@ class About extends Component {
                     <div className='about-desc col-lg-7'>
                             <div className='title-logo'>
                                     <div className='logos'>
-                                        <img src= {git}/>
-                                        <img src= {linked}/>
+                                        <a target={'_blank'} href = {"https://github.com/cttub"}><img src= {git}/></a>
+                                        <a target={'_blank'} href = {"https://www.linkedin.com/in/cttub/"}><img src= {linked}/></a>
                                     </div>
                                         <p className='heading purple-text about-title'>About Me</p>  
                             </div> 

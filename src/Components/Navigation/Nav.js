@@ -19,19 +19,19 @@ class Nav extends Component {
                 
                 <div className='navigationTab red-bg' style={{float: 'right'}}>
                                     
-                        <Link style = {{float: "left"}}
+                        <Link className = "navTag" style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
                                 to = "/About"><p>About</p>
                         </Link>
-                        <Link style = {{float: "left"}}
+                        <Link className = "navTag" style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
                                 to = "/MyWork"><p>My Work</p>
                         </Link>
-                        <Link style = {{float: "left"}}
+                        <Link className = "navTag" style = {{float: "left"}}
                                 onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
