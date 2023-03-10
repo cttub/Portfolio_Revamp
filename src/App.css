@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6, p{
 .subtitle, h2{
     font-size: 40px;
 }
+.mini-subtitle{
+    font-size: 30px;
+}
 p{
     font-size: 25px;
 }
@@ -97,6 +100,9 @@ button{
 }
 .purple-text{
     color: #99A4DD;
+}
+.white-text{
+    color: white;
 }
 /*Background Colors*/
 .pink-bg{
