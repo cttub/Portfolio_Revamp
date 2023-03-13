@@ -12,16 +12,15 @@
 .horizontal{
     margin-top: 30px;
 }
-.case-summary{
-    text-align: center;
-}
+
 .case-description{
     font-size: 20px;
 }
 .case-image{
-    height: 90%;
-    border: solid 4px #99A4DD;
-    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    height:50%;
+
 }
 .case-frame{
     border-radius: 80px;
@@ -31,6 +30,11 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+}
+.bottom-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .prob-sol{
     padding: 10px;
@@ -42,13 +46,40 @@
 .bulletPoints{
     display: flex;
 }
+
 .website-link{
-    background-color: #99A4DD;
     text-align: center;
-    padding: 10px;
-    border: solid white 4px;
-    color: white;
-    background:  #99A4DD;
+    padding: 10px 40px 10px 40px;
+    border: solid #99A4DD 4px;
+    color: #99A4DD;
+    background:  white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: ease-in-out .5s;
+}
+.website-link:hover{
+    color: #99A4DD;
+}
+.linkMobile{
+    display: flex;
+    justify-content: center;
+}
+.image-logo{
+    padding: 5px;
+}
+.webpage{
+    transition: ease-in-out .3s;
+    color: #99A4DD !important;
+    background-color: white;
+    
+}
+
+.bullet-list{
+    display: flex;
+}
+.webpage-container{
+    display: flex;
+    justify-content: center;
 }
 #bulletPoint{
     font-size: 20px;
@@ -63,13 +94,26 @@
 hr{
     border-top: 2px solid #484848;
 }
+.webpage{
+    float: right;
+}
 @media only screen and (max-width: 822px){
     .case-info{
         padding: 0px;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 950px){
+    .bullet-list{
+        display: block;
+    }
     .bulletPoints{
         display: block;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .image-logo{
+        width: 20%;
     }
 }

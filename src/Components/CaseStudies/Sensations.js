@@ -20,6 +20,7 @@ class Sensation extends Component {
                 <br/><br/>The website format was designed to cater to the intended audience by highlighting the main attraction while 
                 providing a <b>seamless user experience</b> across all platforms. Within the first week of publishing, 
                 the website also helped Sensations <b>attract over 20 job applicants, providing a more diverse hiring pool</b> for the business.</div>}
+                link = "https://www.sensationsgc.club/"
                 firstPoint = "React.js"
                 secondPoint = "Figma"
                 thirdPoint = "Formacade"

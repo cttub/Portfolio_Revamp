@@ -11,10 +11,10 @@ class Dime extends Component {
         return (
             <>
             <CaseStudy
-                title = "DinoDoods NFT Startup"
-                position = "Front-End Web Developer & Designer"
-                summary = "Improving company's audience and brand by re-designing and developing their web application."
-                date = "(October 2021 - June 2022 |  Full Time)"
+                title = "Digital Medicine Society"
+                position = "Associate Front-End Developer"
+                summary = "Improving user engagement and streamlining operations with Front-End development and design."
+                date = "(December 2022 - Present | Full Time)"
                 website = {image}
                 link = "https://dimesociety.org/"
                 problem = {<div>The Digital Medicine Society was seeking someone to handle workload that was previously assigned to a single person, 
@@ -27,12 +27,14 @@ class Dime extends Component {
                     Additionally, I <b>foster a culture of constructive feedback</b> and <b>take initiative</b> on various projects, contributing to DiMe's success.
                      My colleagues would attest that my <b>strong work ethic and dedication</b> to the team are critical components of my professional identity.
                 </div>}
-                firstPoint = "React.js"
-                secondPoint = "Procreate"
-                thirdPoint = "Figma"
+                firstPoint = "Miro"
+                secondPoint = "Wordpress"
+                thirdPoint = "Asana"
+                fourthPoint = "Slack"
                 bgFirst = "purple-bg"
                 bgSecond = "red-bg"
                 bgThird = "green-bg"
+                bgFourth = "dark-orange-bg"
                 />
             </>
         );

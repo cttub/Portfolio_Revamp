@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p{
 .mini-subtitle{
     font-size: 30px;
 }
-p{
+p, .paragraph{
     font-size: 25px;
 }
 /*Button*/
@@ -123,6 +123,12 @@ button{
 .red-bg{
     background: #FF9F9F;
 }
+.dark-orange-bg{
+    background-color: #FFB986;
+}
+.white-bg{
+    background-color: white;
+}
 /*Borders*/
 .green-border{
     border: solid 2px #76C883;
@@ -153,4 +159,20 @@ button{
       -webkit-transform: translateY(-5px);
       transform: translateY(-5px);
     }
+  }
+  *::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #fff8e7;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #99a4dd;
+    border-radius: 25px;
+    border: 4px solid #99a4dd;
+  }
+  .para-link{
+    color: #99a4dd;
   }
