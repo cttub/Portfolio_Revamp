@@ -22,7 +22,7 @@ class CaseStudy extends React.Component{
                         </div>
                         <p className='text-center paragraph black-text'>{this.props.summary}</p>
                         <p className='text-center paragraph purple-text'>{this.props.date}</p>
-                       <div className='webpage-container'> <p id='bulletPoint' className  = "webpage purple-btn">Visit Webpage</p></div>
+                       <div className='webpage-container'> <a target={'_blank'} href = {this.props.link} id='bulletPoint' className  = "webpage purple-btn">Visit Webpage</a></div>
                 </div></Fade>
                 
                 <div className='case-info'> 

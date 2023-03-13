@@ -18,7 +18,9 @@ class DinoDoods extends Component {
                 Specifically, users noted issues with the color palette, lack of mobile-friendly UI/UX, and failure to meet audience tandards in terms of website 
                 attraction. Issues were resolved after the departure of our former developer.</div>}
                 solution = {<div>As an aspiring developer, I took <b>initiative</b> to be our new web developer and designer. 
-                The changes I have made <b>improved user experience</b> and cater towards their needs more <b>efficiently</b>.</div>}
+                The changes I have made <b>improved user experience</b> and cater towards their needs more <b>efficiently</b>.<br/><br/> Along with my primary duties,
+                 I also managed <b>social media, created artwork and animations, and focused on community growth. </b> 
+                 I was able to contribute to the company on multiple fronts, ultimately helping to increase audience reach and attention.</div>}
                 firstPoint = "React.js"
                 secondPoint = "Procreate"
                 thirdPoint = "Figma"
