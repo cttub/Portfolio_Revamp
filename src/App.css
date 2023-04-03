@@ -40,7 +40,7 @@ p, .paragraph{
 /*Button*/
 
 button{
-    transition: ease-in-out .35s;
+    transition: ease-in-out .2s;
     background-color: white;
     font-size: 20px !important;
     border: solid 3px;
@@ -161,7 +161,7 @@ button{
     }
   }
   *::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
   }
 
   *::-webkit-scrollbar-track {

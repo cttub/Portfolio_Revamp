@@ -19,9 +19,11 @@
 }
 .picture{
     border-radius: 135px 135px 1px 0px;
+    height: 400px;
     background: url('../../Assets/pfp.jpg');
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    box-shadow: 5px 5px 25px 0 rgba(150, 94, 53,042.19%);
     border: solid 10px #FFD7BA;
 
 }

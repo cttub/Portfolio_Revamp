@@ -14,12 +14,14 @@
     border-top: solid #99A4DD 2px;
 }
 .landing-image{
+  margin-top: 40px;
   background-color: #FFD7BA;
   overflow: clip;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 50% 50% 0% 0%;
+  box-shadow: 5px 5px 25px 0 rgba(150, 94, 53,042.19%);
   height: 85%;
   width: 85%;
 }
@@ -102,9 +104,9 @@ h5{
     justify-content: center;
 }
 .text-bubble{
+    display: flex;
+    justify-content: center;
     overflow: visible;
-    border-radius: 50% 50% 0px 0px;
-    background: url("../../Assets/halfCircle.svg");
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -112,6 +114,12 @@ h5{
 .chat-info{
     padding: 20px;
     padding-top: 10%;
+}
+@media only screen and (max-width: 1690px){
+    .landing-image{
+        box-shadow: 0px 0px 0px 0 rgba(219, 165, 125,042.19%);
+    }
+
 }
 @media only screen and (max-width: 991px){
     .text-bubble{
