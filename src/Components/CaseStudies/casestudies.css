@@ -122,10 +122,37 @@
 .hidden{
     display: none !important;
 }
+.mobile-step{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-width: 4px;
+    border-radius: 50px;
+    display: none;
+}
 @media only screen and (min-width: 1420px){
     .develop{
         display: flex;
     }
+}
+@media only screen and (max-width: 988px){
+ .step-buttons{
+    display: none;
+ }
+ .mobile-step{ 
+    display: block;
+}
+.info-step{
+    margin-top: 20px;
+}
+.hidden{
+    display: block !important;
+}
+.box-info{
+
+    border-radius: 0px;   
+
+}
 }
 @media only screen and (max-width: 767px){
     .step-buttons {

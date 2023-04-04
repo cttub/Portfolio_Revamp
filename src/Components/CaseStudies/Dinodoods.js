@@ -99,7 +99,9 @@ class DinoDoods extends Component {
                     </div>
 
                     <div className='step-box'>
+                        
                        <Fade duration ={2500}><div  id = "feedback-section" className='box-info feedback'>
+                       <div className='mobile-step red-border red-bg'><h2 className = "white-text"><b>Feedback</b></h2></div>
                             <p className='info-step paragraph'>
                             Several major components hindered the company's branding, so the primary objective is to <b>ensure website attraction</b> towards our audience. 
                             </p>
@@ -126,6 +128,7 @@ class DinoDoods extends Component {
                         </div></Fade> 
 
                         <Fade duration ={2500}><div id = "organize-section" className='hidden box-info organize'>
+                        <div className='mobile-step red-border red-bg'><h2 className = "white-text"><b>Organize</b></h2></div>
                             <div className=''>
                                 <p className='info-step paragraph'>
                                 The website's layout was designed to <b>prioritize</b> the most important information our audience would seek out. 
@@ -140,6 +143,7 @@ class DinoDoods extends Component {
                         </div></Fade>
                         
                         <Fade duration ={2500}><div id = "develop-section" className='hidden box-info develop'>
+                        <div className='mobile-step red-border red-bg'><h2 className = "white-text"><b>Develop</b></h2></div>
                             <div className='col-lg-8'>
                                     <p className='info-step paragraph'>
                                     After completing the design refresh, the final step was to bring it to life. 
@@ -167,8 +171,8 @@ class DinoDoods extends Component {
                         <Fade up duration = {1500}>
                         <div className='force-align'>
                             <p className='paragraph'>
-                            This project challenged my <b>development, design, and analytical skills.</b>
-                            However, my <b>problem-solving abilities</b> enabled me to take the necessary steps to <b>rebuild and rebrand</b> their web experience successfully. 
+                            This project challenged my <b>development, design, and analytical skills. </b>
+                             However, my <b>problem-solving abilities</b> enabled me to take the necessary steps to <b>rebuild and rebrand</b> their web experience successfully. 
                             </p>
                             <br></br>
                             <p className='paragraph'>
