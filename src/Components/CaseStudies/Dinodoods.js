@@ -174,7 +174,7 @@ class DinoDoods extends Component {
                             This project challenged my <b>development, design, and analytical skills. </b>
                              However, my <b>problem-solving abilities</b> enabled me to take the necessary steps to <b>rebuild and rebrand</b> their web experience successfully. 
                             </p>
-                            <br></br>
+                            <br></br> <br></br>
                             <p className='paragraph'>
                             Despite having no prior experience with React,
                             I <b>developed a high-quality React application</b> through <b>adaptability</b> and <b>resilience</b>. 
