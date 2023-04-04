@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import git from '../Assets/GitHub.svg';
 import linked from '../Assets/LinkedIn.svg';
+import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Styles/about.css';
 class About extends Component {
@@ -19,7 +20,13 @@ class About extends Component {
                             </div> 
                             <p className='paragraph about-text'>Currently, I am employed as a <b>WordPress Developer</b> at <b>Digital Medicine Society</b>, while also operating as a part-time freelance developer. 
                                 In my freelance work, I <b>collaborate with small businesses</b> to offer solutions that <b>elevate their customer base</b>.</p>
-                            <button className='green-btn'>See my experience</button>
+                          
+                            <Link className = "nav-bun" style = {{float: "left"}}
+                                    onClick={() => {
+                                                document.querySelector("html").scrollTo(0,0);
+                                                }}
+                                    to = "/MyWork">   <button className='green-btn'>See my experience</button>
+                            </Link>
                     </div></Fade>
                     <Fade right duration = {2100}><div className='picture col-lg-4 orange-bg'>
 
