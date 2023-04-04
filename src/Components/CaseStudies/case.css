@@ -1,0 +1,120 @@
+.caseStudyCard{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.case-title{
+    text-align: center;
+}
+.position-container{
+    display: flex;
+    justify-content: center;
+}
+.horizontal{
+    margin-top: 30px;
+}
+
+.case-description{
+    font-size: 20px;
+}
+.case-image{
+    display: flex;
+    justify-content: center;
+    height:50%;
+
+}
+.case-frame{
+    border-radius: 80px;
+}
+.case-info{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bottom-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.prob-sol{
+    padding: 10px;
+}
+.case-desc{
+    border-top: solid #484848 1px;
+    padding-top: 10px;
+}
+.bulletPoints{
+    display: flex;
+}
+
+.website-link{
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    border: solid #99A4DD 4px;
+    color: #99A4DD;
+    background:  white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: ease-in-out .5s;
+}
+.website-link:hover{
+    color: #99A4DD;
+}
+.linkMobile{
+    display: flex;
+    justify-content: center;
+}
+.image-logo{
+    padding: 5px;
+}
+.webpage{
+    transition: ease-in-out .3s;
+    color: #99A4DD !important;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+.bullet-list{
+    display: flex;
+}
+.webpage-container{
+    display: flex;
+    justify-content: center;
+}
+#bulletPoint{
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 10px;
+}
+hr{
+    border-top: 2px solid #484848;
+}
+.webpage{
+    float: right;
+}
+@media only screen and (max-width: 822px){
+    .case-info{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .bullet-list{
+        display: block;
+    }
+    .bulletPoints{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .image-logo{
+        width: 20%;
+    }
+}

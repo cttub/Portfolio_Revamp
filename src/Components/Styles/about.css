@@ -1,0 +1,49 @@
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    height: 100vh;
+}
+.about-desc{
+    padding: 20px;
+}
+
+.about-title{
+    padding-bottom: 6px;
+    border-bottom:  solid #99A4DD;
+}
+.logos{
+    float: right;
+}
+.logos > a > img{
+    padding: 10px;
+}
+.picture{
+    border-radius: 135px 135px 1px 0px;
+    height: 400px;
+    background: url('../../Assets/pfp.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 5px 5px 25px 0 rgba(150, 94, 53,042.19%);
+    border: solid 10px #FFD7BA;
+
+}
+.logos > a > img{
+    border-radius: 50%;
+    overflow: visible;
+    transition: ease-in-out .3s;
+}
+.logos > a > img:hover{
+    transform: scale(1.2);
+}
+.logos > a > img:active{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 993px){
+    #aboutMe{
+        display: block;
+    }
+    .picture{
+        display: none;
+    }
+}

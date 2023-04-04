@@ -1,0 +1,222 @@
+#case-nav{
+    position: fixed;
+    margin-top: 20%;
+    z-index: 10;
+}
+.active-case-btn{
+   display: none;
+}
+
+.case-nav-btn{
+    translate: -140px;
+    height: 80px;
+    width: 220px;
+    border-radius: 20px;
+    background: white;
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+.case-nav-btn.bottom{
+    margin-bottom: 10px;
+    translate: 0px;
+}
+.case-nav-btn.bottom:hover{
+    transform: scale(0.9);
+    translate: 0px;
+}
+.bottom-navigation{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-navigation > div{
+    justify-content: center;
+    align-items: center;
+}
+
+.case-nav-btn:hover{
+    box-shadow: none;
+    transform: none;
+    translate: -30px;
+}
+.case-nav-btn.dinodoods{
+    background-image:url("../../Assets/DinoDoodsThumnail.png") ; 
+}
+.case-nav-btn.sensations{
+    background-image:url("../../Assets/sensationsLogo.png") ; 
+}
+.case-nav-btn.dime{
+    background-image:url("../../Assets/Dime.png") ; 
+    background-size: 100px;
+}
+
+
+
+#dinodoods{
+    justify-content: center;
+    
+}
+.steps{
+    margin: auto;
+    text-align: center;
+   
+}
+.step-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.step-buttons > button{
+    margin: auto;
+    padding: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 50px !important;
+}
+.step-buttons > .active{
+    text-decoration: underline;
+    background-color: #FF9F9F;
+    color: white;
+}
+.step-buttons > .active:hover{
+    box-shadow: none;
+    transform: scale(1);
+}
+.box-info{
+    overflow: auto;
+    margin-top: 40px;
+    padding: 100px;
+    background-color: white;
+    border: 4px dashed #FF9F9F;
+    border-radius: 0px 104px 104px 104px;   
+    justify-content: center;
+}
+.info-step{
+    text-align: left;
+}
+.prev-dd{
+    justify-content: center;
+    
+}
+.prev-dd > video{
+    margin: auto;
+    border-radius: 20px;
+}
+.box-info.organize > img{
+    width: 150px;
+}
+.develop{
+    overflow: clip;
+    justify-content: center;
+}
+.develop > div{
+    margin: auto;
+}
+.shown{
+    display: block;
+}
+.hidden{
+    display: none !important;
+}
+.mobile-step{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-width: 4px;
+    border-radius: 50px;
+    display: none;
+}
+@media only screen and (min-width: 1420px){
+    .develop{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 988px){
+ .step-buttons{
+    display: none;
+ }
+ .mobile-step{ 
+    display: block;
+}
+.info-step{
+    margin-top: 20px;
+}
+.hidden{
+    display: block !important;
+}
+.box-info{
+
+    border-radius: 0px;   
+
+}
+}
+@media only screen and (max-width: 767px){
+    .step-buttons {
+        display: block;
+    }
+    .box-info{
+       padding: 30px;
+    }
+}
+@media only screen and (max-width: 590px){
+    .video-mobi{
+        display: none;
+    }
+}
+.dd-conclusion{
+    margin-top: 100px;
+}
+.dd-conclusion > .force-align{
+    padding: 10px;
+    text-align: left;
+}
+.fight-gif > img{
+    width: 700px;
+}
+/*Sensations*/
+
+.analytics-sen{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+   
+}
+.analytics-sen > .title{
+    font-size: 40px;
+}
+.an-box > .an-number > p{
+    font-size: 50px;
+
+}
+.an-box{
+    margin: auto;
+    justify-content: center;
+    border-width: 5px;
+    padding: 40px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.2s;
+}
+.an-box:hover{
+    transform: scale(1.1);
+}
+.analytic-boxes{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 694px){
+    .analytic-boxes{
+        display: block;
+    }
+    .an-box{
+        margin-bottom: 10px;
+    }
+
+}
