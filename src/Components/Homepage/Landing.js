@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Bunny from '../Spline/Bunny';
-
+import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 class Landing extends Component {
@@ -14,7 +14,14 @@ class Landing extends Component {
                             <h1 className='info-heading purple-text'>Christina Portfolio</h1>
                             <p className='info-paragraph'>Highly motivated and dedicated developer seeking to further develop 
                                 foundational skills and make a positive impact in the industry.</p>
-                            <button className='green-btn'>Learn More</button>
+                          
+
+                            <Link className = "nav-bun" style = {{float: "left"}}
+                                    onClick={() => {
+                                                document.querySelector("html").scrollTo(0,0);
+                                                }}
+                                    to = "/About">  <button className='green-btn'>Learn More</button>
+                            </Link>
                     </div>
                     <div className='image-container col-lg-4 col-md-6'>
                         <div className='landing-image'>
