@@ -14,7 +14,9 @@ import fight from "../../Assets/Fight.gif";
 import Fade from 'react-reveal/Fade';
 
 import MyWork from '../Homepage/MyWork';
+import BottomNav from './BottomNav';
 
+import CaseNav from './CaseNav';
 class DinoDoods extends Component {
     componentDidMount() {
         const feedbackButton = document.getElementById("feedback");
@@ -61,6 +63,8 @@ class DinoDoods extends Component {
         
         return (
             <div id='dinodoods'>
+                <CaseNav
+                dinodoods = "active-case-btn"/>
                 <CaseStudy
                 title = "DinoDoods NFT Startup"
                 position = "Front-End Web Developer & Designer"
@@ -73,8 +77,8 @@ class DinoDoods extends Component {
                 attraction. Issues were resolved after the departure of our former developer.</div>}
                 solution = {<div>As an aspiring developer, I took <b>initiative</b> to be our new web developer and designer. 
                 The changes I have made <b>improved user experience</b> and cater towards their needs more <b>efficiently</b>.<br/><br/> Along with my primary duties,
-                 I also managed <b>social media, created artwork and animations, and focused on community growth. </b> 
-                 I was able to contribute to the company on multiple fronts, ultimately helping to increase audience reach and attention.</div>}
+                 I also <b>managed social media</b>, <b>created artwork</b> and <b>animations</b>, and focused on <b>community growth. </b> 
+                 I was able to contribute to the company on multiple fronts, ultimately helping to  <b>increase audience reach and attention</b>.</div>}
                 firstPoint = "React.js"
                 secondPoint = "Procreate"
                 thirdPoint = "Figma"
@@ -176,16 +180,17 @@ class DinoDoods extends Component {
                         </div>
                         </Fade>
                         <br></br>
-                        <div className='fight-gif'>
+                        <div className='fight-gif d-none d-lg-block'>
                             <img src = {fight}/>
                         </div>
 
                     </div>
                    
 
-
                 </div>
-                <MyWork/>
+           
+                <BottomNav
+                dinodoods = "active-case-btn"/>
             </div>
         );
     }

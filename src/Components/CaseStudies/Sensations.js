@@ -2,11 +2,20 @@ import React, { Component } from 'react';
 
 import image from '../../Assets/Sensations.png';
 import CaseStudy from './CaseStudy';
+import CaseNav from './CaseNav';
+
+import eye from '../../Assets/eye.svg';
+import click from '../../Assets/click.svg';
+import profile from '../../Assets/profile.svg';
+
+import BottomNav from './BottomNav.js';
 class Sensation extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            <div id ="sensations">
+                <CaseNav
+                sensations = "active-case-btn"/>
                 <CaseStudy
                 title = "Sensations Gentleman’s Club"
                 position = "Web Developer & Designer"
@@ -28,9 +37,30 @@ class Sensation extends Component {
                 bgFirst = "red-bg"
                 bgSecond = "red-bg"
                 bgThird = "red-bg"
-                fourthThird = "red-bg"
+                bgFourth = "red-bg"
                 />
-                
+                <div className='analytics-sen'>
+                    <p className='title'><u>Analytics as of April 3rd 2023</u></p>
+                    <div className='analytic-boxes col-lg-6'>
+                        <div className='an-box purple-border'>
+                            <div className='an-icon'><img src = {eye}/></div>
+                            <div className='an-number'><p className='purple-text'><b>2.5k</b></p></div>
+                            <div className='an-title'><p className='purple-text'><b>Impressions</b></p></div>
+                        </div>
+                        <div className='an-box red-border'>
+                            <div className='an-icon'><img src = {click}/></div>
+                            <div className='an-number'><p className='red-text'><b>478</b></p></div>
+                            <div className='an-title'><p className='red-text'><b>Clicks</b></p></div>
+                        </div>
+                        <div className='an-box green-border'>
+                            <div className='an-icon'><img src = {profile}/></div>
+                            <div className='an-number'><p className='green-text'><b>50+</b></p></div>
+                            <div className='an-title'><p className='green-text'><b>Applicants</b></p></div>
+                        </div>
+                    </div>  
+                </div>
+                <BottomNav
+                sensations = "active-case-btn"/>
             </div>
         );
     }

@@ -1,12 +1,69 @@
+#case-nav{
+    position: fixed;
+    margin-top: 20%;
+    z-index: 10;
+}
+.active-case-btn{
+   display: none;
+}
+
+.case-nav-btn{
+    translate: -140px;
+    height: 80px;
+    width: 220px;
+    border-radius: 20px;
+    background: white;
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+.case-nav-btn.bottom{
+    margin-bottom: 10px;
+    translate: 0px;
+}
+.case-nav-btn.bottom:hover{
+    transform: scale(0.9);
+    translate: 0px;
+}
+.bottom-navigation{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-navigation > div{
+    justify-content: center;
+    align-items: center;
+}
+
+.case-nav-btn:hover{
+    box-shadow: none;
+    transform: none;
+    translate: -30px;
+}
+.case-nav-btn.dinodoods{
+    background-image:url("../../Assets/DinoDoodsThumnail.png") ; 
+}
+.case-nav-btn.sensations{
+    background-image:url("../../Assets/sensationsLogo.png") ; 
+}
+.case-nav-btn.dime{
+    background-image:url("../../Assets/Dime.png") ; 
+    background-size: 100px;
+}
+
+
 
 #dinodoods{
     justify-content: center;
-    padding-bottom: 100px;
+    
 }
 .steps{
     margin: auto;
     text-align: center;
-    margin-bottom: 300px;
+   
 }
 .step-buttons {
     display: flex;
@@ -92,4 +149,47 @@
 }
 .fight-gif > img{
     width: 700px;
+}
+/*Sensations*/
+
+.analytics-sen{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+   
+}
+.analytics-sen > .title{
+    font-size: 40px;
+}
+.an-box > .an-number > p{
+    font-size: 50px;
+
+}
+.an-box{
+    margin: auto;
+    justify-content: center;
+    border-width: 5px;
+    padding: 40px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.2s;
+}
+.an-box:hover{
+    transform: scale(1.1);
+}
+.analytic-boxes{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 694px){
+    .analytic-boxes{
+        display: block;
+    }
+    .an-box{
+        margin-bottom: 10px;
+    }
+
 }

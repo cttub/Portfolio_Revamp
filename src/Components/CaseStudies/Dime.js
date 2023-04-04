@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import CaseStudy from './CaseStudy';
 import image from '../../Assets/Dime.png';
-
+import BottomNav from './BottomNav';
+import CaseNav from './CaseNav';
 class Dime extends Component {
     state = {
         
@@ -10,6 +11,8 @@ class Dime extends Component {
       
         return (
             <>
+            <CaseNav
+                dime = "active-case-btn"/>
             <CaseStudy
                 title = "Digital Medicine Society"
                 position = "Associate Front-End Developer"
@@ -36,6 +39,8 @@ class Dime extends Component {
                 bgThird = "green-bg"
                 bgFourth = "dark-orange-bg"
                 />
+                 <BottomNav
+                dime = "active-case-btn"/>
             </>
         );
     }

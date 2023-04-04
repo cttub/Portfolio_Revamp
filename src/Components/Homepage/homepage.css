@@ -98,6 +98,9 @@ h5{
 }
 
 /*LetsChat*/
+#contact{
+    height: 100vh;
+}
 .chat-container{
     width: 100%;
     display: flex;
