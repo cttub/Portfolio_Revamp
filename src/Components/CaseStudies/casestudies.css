@@ -137,7 +137,7 @@
 }
 @media only screen and (max-width: 988px){
  .step-buttons{
-    display: none;
+    display: none !important;
  }
  .mobile-step{ 
     display: block;

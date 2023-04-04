@@ -9,6 +9,8 @@ import prevVidMobi from "../../Assets/DinoDoods/Previous/ErrorsMobile.mp4";
 import VidMobi from "../../Assets/DinoDoods/DinoDoodsMobile.mp4";
 import dd from "../../Assets/DinoDoods/dd.png";
 
+import LazyLoad from 'react-lazyload';
+
 import fight from "../../Assets/Fight.gif";
 
 import Fade from 'react-reveal/Fade';
@@ -111,19 +113,20 @@ class DinoDoods extends Component {
                             inform our design and development decisions. It was concluded 
                             that several areas needing improvement were inconsistent color palettes, subpar mobile UX design, and a lack of uniformity.
                             </p>
+                            <LazyLoad>
                             <div className='prev-dd d-lg-flex d-block'>
-                               
+                            
                                     <video className=' col-lg-8 col-md-10 col-sm-10 d-none d-sm-block' autoPlay muted loop controls id="prevVid">
                                             <source src={prevVid}></source>
                                     </video>
                                     <video className='col-lg-3 col-md-5 d-none d-sm-block' autoPlay muted loop  controls id="prevVid">
                                             <source src={prevVidMobi}></source>
                                     </video>
-
+                                  
                             
                                 <div></div>
 
-                            </div>
+                            </div>  </LazyLoad>
 
                         </div></Fade> 
 
@@ -156,11 +159,12 @@ class DinoDoods extends Component {
                                     Throughout the development process, we also made <b>significant improvements to mobile functionality.</b>
                                     </p>
                             </div>
+                            <LazyLoad>
                             <div className='col-lg-5' >
                                 <video style={{borderRadius: "20px"}} className='col-lg-12 video-mobi' autoPlay muted loop controls>
                                                 <source src={VidMobi}></source>
                                 </video>
-                            </div>
+                            </div>  </LazyLoad>
                         </div></Fade>
                     </div>
 

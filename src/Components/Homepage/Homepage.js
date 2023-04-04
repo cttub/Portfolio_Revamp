@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './homepage.css';
 import LazyLoad from 'react-lazyload';
-import {Link} from 'react-router-dom';
+
 import Landing from './Landing';
 import MyWork from './MyWork';
 import LetsChat from './LetsChat';
