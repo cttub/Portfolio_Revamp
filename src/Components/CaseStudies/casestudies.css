@@ -133,7 +133,11 @@
 @media only screen and (min-width: 1420px){
     .develop{
         display: flex;
+     
     }
+}
+@media only screen and (max-width: 1420px){
+  
 }
 @media only screen and (max-width: 988px){
  .step-buttons{

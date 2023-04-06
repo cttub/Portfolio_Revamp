@@ -147,7 +147,7 @@ class DinoDoods extends Component {
                         
                         <Fade duration ={2500}><div id = "develop-section" className='hidden box-info develop'>
                         <div className='mobile-step red-border red-bg'><h2 className = "white-text"><b>Develop</b></h2></div>
-                            <div className='col-lg-8'>
+                            <div className='col-lg-7 develop-info'>
                                     <p className='info-step paragraph'>
                                     After completing the design refresh, the final step was to bring it to life. 
                                     </p>
@@ -160,7 +160,7 @@ class DinoDoods extends Component {
                                     </p>
                             </div>
                             <LazyLoad>
-                            <div className='col-lg-5' >
+                            <div className='col-lg-11' >
                                 <video style={{borderRadius: "20px"}} className='col-lg-12 video-mobi' autoPlay muted loop controls>
                                                 <source src={VidMobi}></source>
                                 </video>

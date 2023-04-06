@@ -44,17 +44,17 @@ class Sensation extends Component {
                     <div className='analytic-boxes col-lg-6'>
                         <div className='an-box purple-border'>
                             <div className='an-icon'><img src = {eye}/></div>
-                            <div className='an-number'><p className='purple-text'><b>2.5k</b></p></div>
+                            <div className='an-number'><p className='purple-text'><b>2.6K</b></p></div>
                             <div className='an-title'><p className='purple-text'><b>Impressions</b></p></div>
                         </div>
                         <div className='an-box red-border'>
                             <div className='an-icon'><img src = {click}/></div>
-                            <div className='an-number'><p className='red-text'><b>478</b></p></div>
+                            <div className='an-number'><p className='red-text'><b>500</b></p></div>
                             <div className='an-title'><p className='red-text'><b>Clicks</b></p></div>
                         </div>
                         <div className='an-box green-border'>
                             <div className='an-icon'><img src = {profile}/></div>
-                            <div className='an-number'><p className='green-text'><b>50+</b></p></div>
+                            <div className='an-number'><p className='green-text'><b>70+</b></p></div>
                             <div className='an-title'><p className='green-text'><b>Applicants</b></p></div>
                         </div>
                     </div>  
